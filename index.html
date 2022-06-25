@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Style/all.min.css">
+    <link rel="stylesheet" href="./Style/bootstrap.min.css">
+    <link rel="stylesheet" href="./Style/fontawesome.min.css ">
+    <link rel="stylesheet" href="./Style/Main-Style.css">
+    <title>Exam 2</title>
+</head>
+
+<body>
+    <aside class=" position-fixed">
+        <div class=" vh-100  inner d-flex position-relative">
+            <div class="   bg-dark w-75  side-bar">
+                <div class="ineer py-3 d-flex flex-column justify-content-between h-100  ">
+                    <div class="links  ">
+                        <ul class='position-relative'>
+                            <li><a hre="now_playing">Now playing</a></li>
+                            <li><a hre="popular">Popular</a></li>
+                            <li><a hre="top_rated">Top Rated</a></li>
+                            <li><a hre="Trending">Trending</a></li>
+                            <li><a hre="upcoming">Upcoming</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="side-bar-foo p-3">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class=" ps-2 fa-brands fa-twitter"></i>
+                        <i class=" ps-2 fa-solid fa-globe"></i>
+                        <p class="pt-2">
+                            Copyright Â© 2019 All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="side-logo  bg-danger d-flex flex-column  justify-content-between">
+                <div class="logo pt-3 ">
+                    <img class="w-50 position-relative start-50 translate-middle-x" src="./IMG/logo.png" alt="logo">
+                </div>
+                <div class=" btn-cancel position-relative">
+                    <i class=" fas fa-times position-absolute top-0 start-50 translate-middle" id="cancel"></i>
+                    <i class=" fs-5 fas fa-bars position-absolute top-0  start-50  translate-middle" id="btn"></i>
+                </div>
+                <div class="pb-3 d-flex flex-column align-items-center justify-content-around ">
+                    <i class=" pb-3 fa-brands fa-twitter"></i>
+                    <i class=" fa-solid fa-globe"></i>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <section class="movis">
+        <div class="container ">
+            <div class="row ps-4 d-flex justify-content-around ">
+                <input class="search col-md-5   p-2 mt-4" type="search" placeholder="search">
+                <input class="word  col-md-5  p-2 mt-4" type="search" placeholder="word">
+            </div>
+            <div class="items  row position-relative text-center " id="display">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <h4 class=" mt-5">Contact Us</h4>
+                <div class="col-md-6">
+                    <input type="text" class="w-100 p-2 mb-3 mt-3" placeholder="Enter Your Name">
+                    <div class="alert-rejx alert-rejx-name alert alert-danger">Pleas Enter Your Name </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="w-100 p-2 mb-3 mt-3" placeholder="Enter Your Email">
+                    <div class="alert-rejx alert-rejx-email alert alert-danger">pleas Enter Your Email</div>
+                </div>
+                <div class="col-md-6">
+                    <input type="tel" class="w-100 p-2 mb-3 mt-3" placeholder="Enter Your Number">
+                    <div class="alert-rejx alert-rejx-phone alert alert-danger">pleas Enter Your Phone</div>
+                </div>
+                <div class="col-md-6">
+                    <input  class="w-100 p-2 mb-3 mt-3" placeholder="Enter Your Age">
+                    <div class="alert-rejx alert-rejx-age alert alert-danger">Enter Your Age</div>
+                </div>
+                <div class="col-md-6">
+                    <input type="password" class="w-100 p-2 mb-3 mt-3 " placeholder="Enter Your Password">
+                    <div class="alert-rejx alert-rejx-pass alert alert-danger">Enter Your Password</div>
+                </div>
+                <div class="col-md-6">
+                    <input type="password" class="w-100 p-2 mb-3 mt-3" placeholder="Enter Your Re-Password">
+                    <div class="alert-rejx alert-rejx-re-pass alert alert-danger">Enter Your Re-Password</div>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+            <button type="button" class="btn btn-danger">Sub</button>
+        </div>
+    </section>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/jquery-3.6.0.min.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

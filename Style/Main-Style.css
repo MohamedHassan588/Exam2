@@ -1,0 +1,129 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: var(--main-color);
+}
+
+:root {
+    --main-color: #1B2430;
+    --second-color: #51557e8f;
+    --second-color-opc: #51557e8f;
+    --third-color: #816797;
+    --p-color: #DFF6FF;
+
+}
+
+
+aside {
+    z-index: 22;
+}
+
+.ineer .links li {
+    padding: 12px 0px;
+
+}
+
+.ineer .links li a {
+    text-decoration: none;
+    color: var(--p-color);
+    transition: all ease-in-out .2s;
+}
+
+.ineer .links li a:hover,
+.side-bar-foo i:hover {
+    color: var(--third-color);
+    cursor: pointer;
+}
+
+.side-bar-foo {
+    color: var(--p-color);
+}
+
+.side-logo div i {
+    cursor: pointer;
+}
+
+.side-logo .btn-cancel #btn {
+    opacity: 0;
+    display: none;
+}
+
+
+
+
+
+
+.movis .items .item img {
+    border-radius: 10px;
+}
+
+.movis .items .item div {
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.movis .items .item .text {
+    background-color: var(--second-color-opc);
+    top: 100%;
+    transition: all ease-in-out .5s;
+
+
+}
+
+.movis .items .item:hover .text {
+    top: 0%;
+
+}
+
+.movis .items .item .text {
+    color: var(--p-color);
+
+}
+
+.movis .items .item .text h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.movis .items .item .text p {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.movis input:focus ,.contact input:focus  {
+    outline: none;
+}
+
+.movis input ,.contact input  {
+    border: none;
+    border-bottom: 2px solid var(--third-color);
+    background-color: transparent;
+    color: var(--third-color);
+
+
+}
+
+.movis input::placeholder , .contact input::placeholder  {
+    color: var(--third-color);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.contact .container button:hover {
+    cursor: pointer;
+}
+
+.alert-rejx {
+    display: none;
+}
+
+.movis ,.container, .contact{
+    width: 85%;
+    margin: auto;
+}
